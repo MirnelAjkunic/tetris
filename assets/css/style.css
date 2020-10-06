@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+}
+section {
+    width: 42%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px;
+}
+.jedan {
+    grid-area: 1 / 1 / 5 / 1;
+    background-color: #358FF0;
+}
+.dva {
+    grid-area: 1 / 2 / 4 / 2;
+    background-color: #4DEDF6;
+}
+.tri {
+    grid-area: 1 / 3 / 1 / 3;
+    background-color: #4DEDF6;
+}
+.cetri {
+    grid-area: 1 / 4 / 1 / 8;
+    background-color:#FBE927;
+}
+.pet {
+    grid-area: 2 / 7 / 5 / 8;
+    background-color:#95EE36;
+}
+.sest {
+    grid-area: 2 / 3 / 5 / 4;
+    background-color: #358FF0;
+}
+.sedam {
+    grid-area: 2 / 4 / 3 / 5;
+    background-color: #358FF0;
+}
+.osam {
+    grid-area: 2 / 5 / 3 / 7;
+    background-color:#F6277B;
+}
+.devet {
+    grid-area: 3 / 6 / 4 / 7;
+    background-color:#95EE36;
+}
+.deset {
+    grid-area: 3 / 4 / 4 / 6;
+    background-color:#F6277B;
+}
+.jedanest {
+    grid-area: 4 / 2 / 6 / 3;
+    background-color:#95EE36;
+}
+.dvanaest {
+    grid-area: 5 / 1 / 7 / 2;
+    background-color:#95EE36;
+}
+.trinaest {
+    grid-area: 5 / 3 / 7 / 4;
+    background-color:#F6277B;
+}
+.cetrnaest {
+    grid-area: 4 / 4 / 6 / 6;
+    background-color:#FBE927;
+}
+.petnaest {
+    grid-area: 4 / 6 / 6 / 7;
+    background-color: #F76E2C;
+}
+.sesnaest {
+    grid-area: 5 / 7 / 7 / 8;
+    background-color: #F76E2C;
+}
+.sedamnaest {
+    grid-area: 5 / 1 / 7 / 2;
+    background-color:#95EE36;
+}
+.osamnaest {
+    grid-area: 4 / 2 / 6 / 3;
+    background-color:#95EE36;
+}
+.devetnaest {
+    grid-area: 6 / 4 / 7 / 6;
+    background-color:#F6277B;
+}
+.dvadeset {
+    grid-area: 6 / 6 / 8 / 7;
+    background-color:#4DEDF6 ;
+}
+.dvajedan {
+    grid-area: 6 / 2 / 8 / 3;
+    background-color: #358FF0;
+}
+.dvadva {
+    grid-area: 7 / 1 / 9 / 2 ;
+    background-color: #358FF0;
+}
+.dvatri {
+    grid-area: 8 / 2 / 9 / 5 ;
+    background-color:#FBE927;
+}
+.dvacetri {
+    grid-area: 7 / 3 / 8 / 4;
+    background-color:#FBE927;
+}
+.dvapet {
+    grid-area: 7 / 4 / 8 / 6;
+    background-color:#4DEDF6 ;
+}
+.dvasest {
+    grid-area: 7 / 7 / 11 / 8;
+    background-color: #358FF0;
+}
+.dvasedam {
+    grid-area: 11 / 7 / 13 / 8;
+    background-color: #F76E2C;
+}
+.dvaosam {
+    grid-area: 9 / 1 / 12 / 2;
+    background-color:#95EE36;
+}
+.dvadevet {
+    grid-area: 12 / 1 / 13 / 4;
+    background-color: #F76E2C;
+}
+.trideset {
+    grid-area: 12 / 4 / 13 / 6;
+    background-color: #358FF0;
+}
+.trijedan {
+    grid-area: 11 / 6 / 13 / 7;
+    background-color: #F76E2C;
+}
+.tridva {
+    grid-area: 11 / 2 / 12 / 3;
+    background-color: #F76E2C;
+}
+.tritri {
+    grid-area: 11 / 3 / 12 / 5;
+    background-color: #358FF0;
+}
+.tricetri {
+    grid-area: 10 / 5 / 12 / 6 ;
+    background-color:#FBE927;
+}
+.tripet {
+    grid-area: 10 / 4 / 11 / 7 ;
+    background-color:#FBE927;
+}
+.trisest {
+    grid-area: 10 / 2 / 11 / 4;
+    background-color:#4DEDF6;
+}
+.trisedam {
+    grid-area: 9 / 3 / 10 / 5;
+    background-color:#4DEDF6;
+}
+.triosam {
+    grid-area: 9 / 2 / 10 / 3;
+    background-color:#95EE36;
+}
+.tridevet {
+    grid-area:  8 / 5 / 10 / 7;
+    background-color:#F6277B;
+}
